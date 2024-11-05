@@ -22,11 +22,11 @@
 	*/
 
 	//Від кого лист
-	$mail->setFrom('innamassura@gmail.com'); // Вказати потрібний E-mail
+	$mail->setFrom('innamassura@gmail.com', 'Фрілансер по життю'); // Вказати потрібний E-mail
 	//Кому відправити
 	$mail->addAddress('innamassura@gmail.com'); // Вказати потрібний E-mail
 	//Тема листа
-	$mail->Subject = 'Вітання!';
+	$mail->Subject = 'Вітання! Це "Фрілансер по життю"';
 
 	//Тіло листа
 	$body = '<h1>Зустрічайте супер листа!</h1>';

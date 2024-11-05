@@ -2070,54 +2070,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     font-size: 1.875rem
   }
 }
-@media (max-width:48em) {
-  .form {
-    width: 100%
-  }
-  .founder__block {
-    width: 100%;
-    margin-bottom: 10.625rem
-  }
-  .founder__content {
-    border: 13px solid #8dabdd
-  }
-  .founder__desc::before {
-    top: -1.25rem
-  }
-  .founder__desc {
-    min-height: .0625rem
-  }
-  .founder__photo {
-    width: 18.125rem;
-    left: calc(50% - 9.0625rem);
-    bottom: calc(100% - 5.9375rem);
-    border-radius: 0
-  }
-  .founder__inner {
-    max-height: 14.375rem;
-    border-radius: 0
-  }
-  .calc__block-header {
-    width: 100%;
-    margin-bottom: 1.5625rem
-  }
-  .calc__form {
-    width: 100%
-  }
-}
-@media (max-width:525.98px) {
-  .footer__body {
-    -webkit-column-gap: 1.25rem;
-    -moz-column-gap: 1.25rem;
-    column-gap: 1.25rem
-  }
-  .footer__column {
-    width: 50%
-  }
-  .footer__column:nth-child(2) {
-    display: none
-  }
-}
 @media (max-width:25em) {
   .choose__block-footer {
     flex-direction: column;
@@ -2571,6 +2523,41 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     grid-column: span 2
   }
 }
+@media (max-width:48em) {
+  .form {
+    width: 100%
+  }
+  .founder__block {
+    width: 100%;
+    margin-bottom: 10.625rem
+  }
+  .founder__content {
+    border: 13px solid #8dabdd
+  }
+  .founder__desc::before {
+    top: -1.25rem
+  }
+  .founder__desc {
+    min-height: .0625rem
+  }
+  .founder__photo {
+    width: 18.125rem;
+    left: calc(50% - 9.0625rem);
+    bottom: calc(100% - 5.9375rem);
+    border-radius: 0
+  }
+  .founder__inner {
+    max-height: 14.375rem;
+    border-radius: 0
+  }
+  .calc__block-header {
+    width: 100%;
+    margin-bottom: 1.5625rem
+  }
+  .calc__form {
+    width: 100%
+  }
+}
 @media (max-width:41.875em) {
   .sliders__control {
     width: 8.125rem;
@@ -2590,6 +2577,19 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   .about__img img {
     width: 100%;
     height: auto
+  }
+}
+@media (max-width:32.87375em) {
+  .footer__body {
+    -webkit-column-gap: 1.25rem;
+    -moz-column-gap: 1.25rem;
+    column-gap: 1.25rem
+  }
+  .footer__column {
+    width: 50%
+  }
+  .footer__column:nth-child(2) {
+    display: none
   }
 }
 @media (max-width:31.25em) {
